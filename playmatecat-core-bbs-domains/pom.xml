@@ -5,7 +5,7 @@
     <artifactId>playmatecat-bbs-domains</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>playmatecat-domain-commons</artifactId>
+  <artifactId>playmatecat-core-bbs-domains</artifactId>
   
   <profiles>
 		<profile>
@@ -70,5 +70,20 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
+	
+	<dependencies>
+		<!-- 集成相关的domain -->
+		<dependency>
+			<groupId>com.playmatecat</groupId>
+			<artifactId>playmatecat-domain-bbs</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>com.playmatecat</groupId>
+			<artifactId>playmatecat-domain-commons</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+	
 </project>
