@@ -5,7 +5,7 @@
     <artifactId>playmatecat-bbs-domains</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>playmatecat-core-bbs-domains</artifactId>
+  <artifactId>playmatecat-domain-core-bbs</artifactId>
   
   <profiles>
 		<profile>
