@@ -76,14 +76,19 @@
 		<!-- 集成相关的domain -->
 		<dependency>
 			<groupId>com.playmatecat</groupId>
-			<artifactId>playmatecat-domain-bbs</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
-		<dependency>
-			<groupId>com.playmatecat</groupId>
 			<artifactId>playmatecat-domain-commons</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+            <groupId>com.playmatecat</groupId>
+            <artifactId>playmatecat-domain-bbs</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.playmatecat</groupId>
+            <artifactId>playmatecat-domain-sys_bbs</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 	</dependencies>
 	
 </project>
