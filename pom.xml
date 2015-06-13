@@ -9,6 +9,7 @@
 		<module>playmatecat-domain-commons</module>
 		<module>playmatecat-domain-bbs</module>
 		<module>playmatecat-domain-core-bbs</module>
+		<module>playmatecat-domain-sys_bbs</module>
 	</modules>
 
 	<profiles>
