@@ -1,18 +1,29 @@
 package com.playmatecat.bbs.bbsApp.admin.vo;
 
-import java.util.List;
-
+import com.playmatecat.commons.structure.Pagination;
 import com.playmatecat.domains.sysBBS.dto.RoleDTO;
 
 public class AuthorizationVO {
-    private List<RoleDTO> RoleList;
 
-    public List<RoleDTO> getRoleList() {
-        return RoleList;
+    private RoleDTO roleDTO;
+    
+    private Pagination<RoleDTO> rolePage;
+
+    public RoleDTO getRoleDTO() {
+        return roleDTO;
     }
 
-    public void setRoleList(List<RoleDTO> roleList) {
-        RoleList = roleList;
+    public void setRoleDTO(RoleDTO roleDTO) {
+        this.roleDTO = roleDTO;
     }
+
+    public Pagination<RoleDTO> getRolePage() {
+        return rolePage;
+    }
+
+    public void setRolePage(Pagination<RoleDTO> rolePage) {
+        this.rolePage = rolePage;
+    }
+
     
 }

@@ -77,6 +77,13 @@
 	</build>
 
 	<dependencies>
+	   <dependency>
+            <groupId>com.playmatecat</groupId>
+            <artifactId>playmatecat-commons</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+	
+	
 		<!-- JSR-303验证 -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
