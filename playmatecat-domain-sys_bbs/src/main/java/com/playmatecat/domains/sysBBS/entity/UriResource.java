@@ -1,7 +1,7 @@
 package com.playmatecat.domains.sysBBS.entity;
 
 public class UriResource {
-    private Integer id;
+    private Long id;
 
     private String uriWildcard;
 
@@ -9,11 +9,11 @@ public class UriResource {
 
     private Boolean isDeleted;
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

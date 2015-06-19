@@ -1,23 +1,23 @@
 package com.playmatecat.domains.sysBBS.entity;
 
 public class RelLevelDict2PermKey {
-    private Integer levelDictId;
+    private Long levelDictId;
 
-    private Integer permissionId;
+    private Long permissionId;
 
-    public Integer getLevelDictId() {
+    public Long getLevelDictId() {
         return levelDictId;
     }
 
-    public void setLevelDictId(Integer levelDictId) {
+    public void setLevelDictId(Long levelDictId) {
         this.levelDictId = levelDictId;
     }
 
-    public Integer getPermissionId() {
+    public Long getPermissionId() {
         return permissionId;
     }
 
-    public void setPermissionId(Integer permissionId) {
+    public void setPermissionId(Long permissionId) {
         this.permissionId = permissionId;
     }
 }

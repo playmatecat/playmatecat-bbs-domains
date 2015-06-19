@@ -1,17 +1,17 @@
 package com.playmatecat.domains.sysBBS.entity;
 
 public class LevelDict {
-    private Integer id;
+    private Long id;
 
     private Short level;
 
     private Boolean isDeleted;
 
-    public Integer getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(Integer id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

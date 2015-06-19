@@ -1,23 +1,23 @@
 package com.playmatecat.domains.sysBBS.entity;
 
 public class RelPerm2uriResKey {
-    private Integer permissionId;
+    private Long permissionId;
 
-    private Integer uriResourceId;
+    private Long uriResourceId;
 
-    public Integer getPermissionId() {
+    public Long getPermissionId() {
         return permissionId;
     }
 
-    public void setPermissionId(Integer permissionId) {
+    public void setPermissionId(Long permissionId) {
         this.permissionId = permissionId;
     }
 
-    public Integer getUriResourceId() {
+    public Long getUriResourceId() {
         return uriResourceId;
     }
 
-    public void setUriResourceId(Integer uriResourceId) {
+    public void setUriResourceId(Long uriResourceId) {
         this.uriResourceId = uriResourceId;
     }
 }
